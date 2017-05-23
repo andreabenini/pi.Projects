@@ -1,0 +1,13 @@
+# ShutdownButton service file, start a daemon on startup
+# file: /etc/systemd/system/ShutdownButton.service
+#
+[Unit]
+Description=Safe shutdown daemon
+
+[Service]
+RemainAfterExit=true
+ExecStart=/usr/bin/python /mnt/media/system/bin/ShutdownButton.py
+
+[Install]
+WantedBy=multi-user.target
+
