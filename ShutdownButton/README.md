@@ -4,7 +4,7 @@ __Safe shutdown daemon__
 This button acts as a reset/shutdown button to deal unattended RPi machines.
 
 - Short press the button to safely shutdown the board
-- Long press shutdown to reboot the board
+- Long press to reboot it
 
 See schematics to reproduce the circuit and use ShutdownButton.py daemon to manage it<br/>
 Short press is dealt from software daemon (ShutdownButton.py), long press is managed from hw circuit so it can work even if the os is hanged somewhere.<br/>
