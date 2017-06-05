@@ -1,2 +1,2 @@
 # pi.Projects
-Safe shutdown daemon
+Assorted Raspberry Pi projects, docs, schematics and code
