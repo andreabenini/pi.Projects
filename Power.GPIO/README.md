@@ -5,8 +5,8 @@ If an incorrect voltage is applied, or a current spike occurs on the line you ca
 
 Take a look at [GPIO schematics](https://github.com/andreabenini/pi.Projects/blob/master/HeaderPinout.png), 5v Vcc goes on Pin #2, GND goes on Pin #6
 
-| Name      | Pin | Pin | Name             |
-|-----------|-----|-----|------------------|
-| 3.3v (01) |  .  |  O  | 5v DC Power (02) |
-| GPIO (02) |  .  |  .  | 5v DC Power (04) |
-| GPIO (03) |  .  |  O  | GND         (06) |
+| Name   | Pin    | Pin        | Name        |
+|--------|--------|------------|-------------|
+| 3.3v   | _01 ._ | **02 [X]** | 5v DC Power |
+| GPIO02 | _03 ._ | _04 ._     | 5v DC Power |
+| GPIO03 | _05 ._ | **06 [X]** | GND         |
