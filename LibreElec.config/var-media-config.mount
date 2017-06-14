@@ -1,0 +1,37 @@
+[Unit]
+# The description should be used to explain what this servicefile is for
+Description=config mount script
+
+# usually we mount networks shares because we want they avaible *before* XBMC starts.
+# so XBMC has access to this mounts from beginning. Note: this slows down the boot!
+#Before=kodi.service
+
+
+[Mount]
+# The share we want mount
+What=/dev/mmcblk0p5
+
+# Where we want mount this share
+Where=/var/media/config
+
+# Any options you usually use with the "-o" parameter in the mount command
+#Options=username=myusername,password=mypassword
+Options=
+
+# filesystem type
+Type=ext4
+
+
+[Install]
+# The target is used by 'systemctl enable <name_of_this_file.mount>' to link
+# this service to a runlevel for starting on boot. usually 'multi-user.target'
+# is ok here.
+WantedBy=multi-user.target
+
+# Important:
+# this file must be renamed to <mountpoint>.mount where <mountpoint>, is the FULL path
+# where the share will be mounted but slashes "/" MUST BE REPLACED with dashes "-" with .mount
+# as extension.
+# This means, if we want mount to "/storage/music2" (see above "Where=/storage/music2")
+# then this file must be renamed to 'storage-music2.mount' and can be enabled via ssh with the
+# command 'systemctl enable storage-music2.mount'
