@@ -17,3 +17,7 @@ Disassemble your monitor, remove the panel, the power supply and the control boa
 - On the bottom left side you can see ground/neutral/phase cables, these are connected to a small switch in the back of the monitor, this ensures to power on the RPi only when it's needed and not when the monitor is powered on
 - On the bottom side there a dismantled USB Hub, no plastics to save space but properly connected to the Pi
 ![Disassembling](02.psupi.jpg)
+In a closer look you may better see the RPi, the modified chassis, the usb hub and the power supply
+![Closer](03.psupi.detail.jpg)
+In order to precisely fit the Pi into the existing aluminium frame I have cut parts of it, here's a small detail of it
+![Chassis Cut](04.pi.inside.monitor.jpg)
