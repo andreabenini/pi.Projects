@@ -21,3 +21,9 @@ In a closer look you may better see the RPi, the modified chassis, the usb hub a
 ![Closer](03.psupi.detail.jpg)
 In order to precisely fit the Pi into the existing aluminium frame I have cut parts of it, here's a small detail of it
 ![Chassis Cut](04.pi.inside.monitor.jpg)
+
+# USB Hub
+To properly replicate usb ports under the monitor I have connected a repurposed usb hub to the Raspberry. This monitor wasn't designed to host a new board or an hub so spaces inside are really tight. That's why I have dismantled this hub in order to save some space. To keep insulation and provide a stable fit I have also added a thin foil of rubber between it and the case, this image shows it in deep
+![USB Hub dismantled](05.hub.opened.jpg)
+With a small L-Shaped aluminium part I have fixed it to the frame as this image shows you
+![USB Fixed](06.hub.fixed.jpg)
