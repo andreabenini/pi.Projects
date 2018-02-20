@@ -27,3 +27,11 @@ To properly replicate usb ports under the monitor I have connected a repurposed 
 ![USB Hub dismantled](05.hub.opened.jpg)
 With a small L-Shaped aluminium part I have fixed it to the frame as this image shows you
 ![USB Fixed](06.hub.fixed.jpg)
+Few small cuts on the chassis are needed in order to expose the USB Hub
+![USB windows](08.hub.naked.jpg)
+
+# Remounting
+Now it's time to remount original electronics so I assembled original PSU for the monitor, from original boards I have also taken the mains in order to provide power to RPi's psu.
+![PSU Remount](07.psu.remount.jpg)
+On the back plastic of the monitor I have also placed a switch for this new psu as you can see from the picture below
+![Additional Power Switch](09.pi.powerswitch.jpg)
