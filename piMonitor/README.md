@@ -35,3 +35,12 @@ Now it's time to remount original electronics so I assembled original PSU for th
 ![PSU Remount](07.psu.remount.jpg)
 On the back plastic of the monitor I have also placed a switch for this new psu as you can see from the picture below
 ![Additional Power Switch](09.pi.powerswitch.jpg)
+It's time to remount the electronic board that is connected to the power supply and to the lcd matrix:
+![Electronic board](10.electronics.remount.jpg)
+After remounting the screws and the plastics the project is finally completed
+
+# Completed
+Here's what's visible on the back panel, when the internal Pi is using the monitor the HDMI cable is connected to it, to use the monitor as a normal peripheral just remove the cable
+![LCD Back Panel](11.assembly.back.jpg)
+From the outside the SD card is slightly visible with a small slot on the top left
+![SD Card Overview](12.sdcard.overview.jpg)
