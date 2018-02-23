@@ -44,3 +44,10 @@ Here's what's visible on the back panel, when the internal Pi is using the monit
 ![LCD Back Panel](11.assembly.back.jpg)
 From the outside the SD card is slightly visible with a small slot on the top left
 ![SD Card Overview](12.sdcard.overview.jpg)
+
+# Overview
+Here's how it look like now after this mod:
+Front:
+![Front](00.front.jpg)
+Back:
+![Back](01.back.jpg)
