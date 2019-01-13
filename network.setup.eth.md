@@ -1,3 +1,10 @@
+# Dynamic IP configuration on `eth0`
+```
+root@raspberrypi:~# cat /etc/network/interfaces.d/eth0 
+auto eth0
+iface eth0 inet dhcp
+```
+
 # Static IP configuration on `eth0`
 ```
 root@raspberrypi:~# cat /etc/network/interfaces.d/eth0 
