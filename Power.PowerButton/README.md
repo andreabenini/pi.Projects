@@ -7,6 +7,8 @@ When you shut down the Pi it will stay in a halt state, it still consumes a smal
 with ATX PSU of these days. From that state you can Recover-PowerOn the Pi again just by pressing that switch, everything is
 done on firmware.
 
+Provided python file might be used to shutdown the board with a software daemon
+
 Take a look at [GPIO schematics](../gpio.HeaderPinout.png), Get it from GPIO3 and GND as shown below
 
 | Name   | Pin        | Pin        | Name        |
