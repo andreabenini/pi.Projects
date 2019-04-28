@@ -44,3 +44,11 @@ Next, connect a suitable USB serial cable to your host computer (a Raspberry Pi 
 Then use `screen` on linux or a Mac or `putty` on windows to connect to the serial.
 
 Setup your serial to receive at 115200-8-N-1, and then boot your Pi / Compute module.  You should get an immediate serial output from the device as bootcode.bin runs.
+
+## booting on older boards (Pi1, Pi2, Zero)
+When this mode is not supported because you're not running on BCM2837 based chips you still need to use an SD but read-only access mode is all you need to keep it working. No write access is performed on boot partition and if you have an external USB drive your SD can last forever
+- Write the latest Raspbian (or whatever os) image to an SD card and boot it
+- Write the latest Raspbian (or whatever os) image to a USB drive and plug it into the Pi
+- Run blkid to determine the PARTUUID of the USB drive
+- Edit /boot/cmdline.txt and change root=PARTUUID=xxxxxxxx to match the PARTUUID of the USB drive
+- Reboot. The Pi should be running from the USB drive
