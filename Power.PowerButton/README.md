@@ -1,10 +1,10 @@
 ### Power button for the Raspberry Pi
 
-Even the RaspberryPi might be powered on with a common switch. If you're using RPi3 with latest firmware there's an hidden
+Even the RaspberryPi might be powered on with a common button. If you're using RPi3 with latest firmware there's an hidden
 feature to power it on.
-There's no need for additional hardware, connect a switch between GPIO3 and GND and everything is fine.<br>
+There's no need for additional hardware, connect a button between GPIO3 and GND and everything is fine.<br>
 When you shut down the Pi it will stay in a halt state, it still consumes a small amount of power just like every common PC
-with ATX PSU of these days. From that state you can Recover-PowerOn the Pi again just by pressing that switch, everything is
+with ATX PSU of these days. From that state you can Recover-PowerOn the Pi again just by pressing that button, everything is
 done on firmware.
 
 Provided python file might be used to shutdown the board with a software daemon
