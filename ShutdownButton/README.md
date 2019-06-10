@@ -1,3 +1,5 @@
+**NOTE:** _outdated project_, use [Power.PowerButton](../Power.PowerButton) instead
+
 # pi.ShutdownButton
 __Safe shutdown daemon__
 
