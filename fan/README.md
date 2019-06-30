@@ -13,3 +13,10 @@ Assorted Pi FAN schemes
 - https://www.digikey.com/en/maker/blogs/2019/how-to-control-a-dc-fan-using-the-raspberry-pi<br>
   this is probably the best one because is documented carefully, arguments the topic with proper math and uses a power MOSFET
   (huge one but capable of controlling many fans)
+- https://www.youtube.com/watch?v=9Qumu2h8FjY&feature=youtu.be&t=1060<br>
+  An usual reader of hackaday probably already knows HomeFaciens and his projects, this one is simple and practical, it uses a
+  12v external battery, a transistor and proper resistors in place. PWM input is not used, ON/OFF on the fan only
+- https://www.instructables.com/id/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/<br>
+  Basic and simple, useful for 5v fan(s)
+- https://www.raspberrypi.org/forums/viewtopic.php?t=194621<br>
+  And a nice forum discussion as well, take a look at the schematics at the bottom, it's something useful to take on
