@@ -14,7 +14,7 @@ Assorted Pi FAN schemes
   this is probably the best one because is documented carefully, arguments the topic with proper math and uses a power MOSFET
   (huge one but capable of controlling many fans)
 - https://www.youtube.com/watch?v=9Qumu2h8FjY&feature=youtu.be&t=1060<br>
-  An usual reader of hackaday probably already knows HomeFaciens and his projects, this one is simple and practical, it uses a
+  An usual reader of hackaday probably already knows HomoFaciens and his projects, this one is simple and practical, it uses a
   12v external battery, a transistor and proper resistors in place. PWM input is not used, ON/OFF on the fan only
 - https://www.instructables.com/id/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/<br>
   Basic and simple, useful for 5v fan(s)
