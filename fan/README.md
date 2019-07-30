@@ -1,4 +1,4 @@
-Assorted Pi FAN schemes
+# Assorted Raspberry Pi FAN circuits
 - https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c<br>
   Worst scheme ever, hardware idea on PCM (GPIO 18) is fine but using internal 5V and no current limiting resistors is
   not a good at all. Nice to see it but electronics needs a rewrite
