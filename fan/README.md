@@ -1,4 +1,5 @@
-# Assorted Raspberry Pi FAN circuits
+
+# Assorted links with Raspberry Pi fan circuits
 - https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c<br>
   Worst scheme ever, hardware idea on PCM (GPIO 18) is fine but using internal 5V and no current limiting resistors is
   not a good at all. Nice to see it but electronics needs a rewrite
@@ -20,3 +21,8 @@
   Basic and simple, useful for 5v fan(s)
 - https://www.raspberrypi.org/forums/viewtopic.php?t=194621<br>
   And a nice forum discussion as well, take a look at the schematics at the bottom, it's something useful to take on
+
+# Power MOSFET alternatives
+- https://www.amazon.com/HiLetgo-IRF520-MOSFET-Arduino-Raspberry/dp/B01I1J14MO/ref=sr_1_1_sspa?crid=2D2V77HGIPTMA&keywords=irf520+mosfet&qid=1565001484&s=gateway&sprefix=irf%2Caps%2C225&sr=8-1-spons&psc=1<br>
+  Really neat package with IRF520 MOSFET and driving circuit. Use it to connect power hungry fans with external power supply when the Pi cannot handle them current directly, supports PWM too. Sample schema (with Arduino) just like this ![Arduino Sample Schema](http://hobbycomponents.com/images/forum/IFR520_MOSFET_Module_DC_Motor_Example.png)<br>
+  On the controller side _Signal_ and _GND_ pins are **required**, _Vcc_ **is not**
