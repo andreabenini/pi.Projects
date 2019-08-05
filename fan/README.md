@@ -1,8 +1,5 @@
 
 # Assorted links with Raspberry Pi fan circuits
-- https://hackernoon.com/how-to-control-a-fan-to-cool-the-cpu-of-your-raspberrypi-3313b6e7f92c<br>
-  Worst scheme ever, hardware idea on PCM (GPIO 18) is fine but using internal 5V and no current limiting resistors is
-  not a good at all. Nice to see it but electronics needs a rewrite
 - https://www.digikey.com/en/maker/projects/control-a-dc-fan-with-a-raspberry-pi/f3fa09ab84c049d08474b625bee8d8f2<br>
   This uses an external therm sensor to get it so it's not my intended usage, needs some adaptation for doing what I've
   planned but overall project is fine
