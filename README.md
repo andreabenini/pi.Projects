@@ -3,7 +3,7 @@ Assorted Raspberry Pi projects, docs, schematics and code
 
 
 - [piMonitor](./piMonitor) - A raspberry pi workstation embedded in a LCD monitor work home/office usage
-- readonly os - 
+- [read.only.os](./read.only.os) - Raspberry Pi Readonly OS resources
 
 
 ---
