@@ -15,3 +15,5 @@ running without surprises
 - https://mtyka.github.io/hardware/2018/10/09/read-only-pi.html<br>
     Preventing SD corruption, mount everything in read-only and keep few things on `tmpfs` (/var/log, /var/tmp, /var/lib/, ...)
     quite reasonable to me
+- http://wiki.glidernet.org/wiki:prevent-sd-card-corruption<br>
+    Prevent the write access which is the main cause for sd card corruption with OverlayFS
