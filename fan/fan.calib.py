@@ -5,7 +5,13 @@
 #
 import sys
 import time
-import RPi.GPIO as GPIO
+try:
+    import RPi.GPIO as GPIO
+except Exception as E:
+    print("\nRPi module not found, aborting program")
+    print(str(E))
+    print("Please install python-raspberry-gpio package\n")
+    sys.exit(1)
 
 FAN_PIN  = 18                   # GPIO 18, PWM, pin 12
 PWM_FREQ = 25                   # PWM frequency
@@ -21,6 +27,6 @@ try:
         fanSpeed = float( input("Fan Speed: ") )
         fan.ChangeDutyCycle(fanSpeed)
 except(KeyboardInterrupt):
-    print("Fan ctrl interrupted by keyboard")
+    print("\n\nCtrl+C. Interrupted by keyboard")
     GPIO.cleanup()
     sys.exit()
