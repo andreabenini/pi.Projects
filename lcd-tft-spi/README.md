@@ -7,3 +7,4 @@ Python with **evdev** package is fine
 ```
 python -m evdev.evtest
 ```
+src: https://github.com/gvalkov/python-evdev/blob/master/evdev/evtest.py
