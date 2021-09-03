@@ -3,6 +3,8 @@
 #
 # Interactive utility for testing PWM and fan duty cycle
 #
+# pylint: disable=import-error
+
 import sys
 import time
 try:
@@ -20,7 +22,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(FAN_PIN, GPIO.OUT, initial=GPIO.LOW)
 
 fan = GPIO.PWM(FAN_PIN, PWM_FREQ)
-fan.start(0);
+fan.start(0)
 try:
     print("Enter Duty Cycle (0..100)")
     while 1:
