@@ -11,7 +11,7 @@ The Raspberry Pi has a number of different stages of booting. This document expl
 [USB boot](usb.md) comprises the following two modes:
 * [Device boot](device.md): booting as a mass storage device
 * [Host boot](host.md): booting as a USB host using one of the following:
-  * [Mass storage boot](msd.md): boot from mass storage device  (RPi 3 and above, USB boot without SD Card inserted
+  * [Mass storage boot](msd.md): boot from mass storage device  (RPi 3 and above, USB boot without SD Card inserted)
   * [Network boot](net.md): boot via Ethernet
   
 
