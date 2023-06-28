@@ -14,5 +14,3 @@ Assorted Raspberry Pi projects, docs, schematics and code
 
 ---
 ![GPIO](gpio.HeaderPinout.png)
-
----
