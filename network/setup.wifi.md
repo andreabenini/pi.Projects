@@ -1,4 +1,15 @@
-# How to setup a generic wireless network card in you RPi
+# How to setup a generic wireless network card in you RPi (NetworkManager)
+```sh
+apt install NetworkManager wpa_supplicant
+nmcli device status
+nmcli radio wifi on
+nmcli device wifi list
+nmcli device wifi connect "Your-SSID-Name" password "Your-Password"
+# verify
+nmcli device wifi list
+```
+
+# How to setup a generic wireless network card in you RPi (dhcpcd, networkd, wpa_supplicant)
 
 - Insert the card
 - Check if it's detected
@@ -27,7 +38,7 @@ network={
 - Wait for a while and issue command `ifconfig wlan0` to see if a proper ip address is set. DHCP must be present or you need
 to set your own manual IP address for it
 
-# Encode PSK
+## Encode PSK
 Please **do not** write your preshared key in clear text in _wpa_supplicant.conf_ text file, this is an huge security issue.
 Use `wpa_passphrase` utility for that. Here's an example
 ```
@@ -45,7 +56,7 @@ network={
 ```
 The utility generates a text output, grab it from there and paste into your _wpa_supplicant.conf_ configuration file, obviously withouth the commented _#psk*_ line
 
-# Some Samples
+## Some Samples
 Here are few configurations for different scenarios
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
